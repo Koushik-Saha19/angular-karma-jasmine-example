@@ -15,7 +15,7 @@ module.exports = function (config) {
       'node_modules/zone.js/dist/async-test.js',
       'node_modules/zone.js/dist/fake-async-test.js',
       // Load the test-init module first.
-      'src/test-init.spec.ts',
+      'test-init.spec.ts',
       // Then include all other source files.
       'src/**/*.+(ts|html)'
     ],
