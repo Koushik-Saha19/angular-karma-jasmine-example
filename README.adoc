@@ -1,0 +1,20 @@
+= Testing an Angular 2 app with Karma and Jasmine
+
+This example project demonstrates how to test an Angular 2 app using Karma and Jasmine.
+
+Basic concepts and sources were taken from these projects:
+
+* https://github.com/monounity/karma-typescript/tree/master/example-project%40angular2
+* https://github.com/angular/quickstart
+
+== Getting Started
+
+. Clone the repository
+. Open a termin in the project root
+. Make sure you have Node.js and NPM installed
+. Run: `npm install`
+. Run: `npm test`
+
+== License
+
+MIT

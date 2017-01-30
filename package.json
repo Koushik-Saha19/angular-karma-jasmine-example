@@ -1,0 +1,34 @@
+{
+  "name": "angular-karma-jasmine-example",
+  "version": "1.0.0",
+  "description": "Example project to demonstrate how to test an Angular 2 app with Karma and Jasmine",
+  "main": "src/main.ts",
+  "scripts": {
+    "clean": "rimraf coverage",
+    "test": "karma start"
+  },
+  "author": "Georg Wittberger <georg.wittberger@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@angular/common": "^2.4.5",
+    "@angular/compiler": "^2.4.5",
+    "@angular/core": "^2.4.5",
+    "@angular/platform-browser": "^2.4.5",
+    "@angular/platform-browser-dynamic": "^2.4.5",
+    "core-js": "^2.4.1",
+    "rxjs": "^5.0.3",
+    "zone.js": "^0.7.6"
+  },
+  "devDependencies": {
+    "@types/core-js": "^0.9.35",
+    "@types/jasmine": "^2.5.41",
+    "@types/node": "^7.0.4",
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.4.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-phantomjs-launcher": "^1.0.2",
+    "karma-typescript": "^2.1.7",
+    "rimraf": "^2.5.4",
+    "typescript": "^2.1.5"
+  }
+}
