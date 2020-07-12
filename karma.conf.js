@@ -46,7 +46,8 @@ module.exports = function (config) {
       groupSuites: true,
       useCompactStyle: true,
       useLegacyStyle: true,
-      showOnlyFailed: false
+      showOnlyFailed: false,
+      colors: true
     },
     
     port: 9876,
