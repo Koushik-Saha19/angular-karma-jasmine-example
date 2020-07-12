@@ -31,7 +31,12 @@ module.exports = function (config) {
       // Pass all TypeScript sources to the preprocessor.
       '**/*.ts': ['karma-typescript']
     },
-    reporters: ['progress', 'karma-typescript'],
+    reporters: ['progress', 'karma-typescript','junit'],
+    junitReporter: {
+       outputDir: 'karma-results',
+       outputFile: 'karma-results.xml'
+      },
+    
     port: 9876,
     colors: true,
     logLevel: config.LOG_INFO,
