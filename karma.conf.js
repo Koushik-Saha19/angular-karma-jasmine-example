@@ -45,7 +45,7 @@ module.exports = function (config) {
       subPageTitle: 'A sample project description',
       groupSuites: true,
       useCompactStyle: true,
-//       useLegacyStyle: true,
+      useLegacyStyle: true,
       showOnlyFailed: false
     },
     
