@@ -47,7 +47,7 @@ module.exports = function (config) {
       useCompactStyle: true,
       useLegacyStyle: true,
       showOnlyFailed: false
-    }
+    },
     
     port: 9876,
     colors: true,
