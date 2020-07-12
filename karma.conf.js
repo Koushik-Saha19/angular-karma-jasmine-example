@@ -19,10 +19,10 @@ module.exports = function (config) {
       // Then include all other source files.
       'src/**/*.+(ts|html)'
     ],
-//     exclude: [
-//       // Exclude main module because it would interfere with the test-init module.
-//       'src/main.ts'
-//     ],
+    exclude: [
+      // Exclude main module because it would interfere with the test-init module.
+      'src/main.ts'
+    ],
     proxies: {
       // Map requests to sources to the base path where Karma serves them.
       '/src/': '/base/src/'
